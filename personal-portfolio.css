@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.nav-con {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.a-con {
+
+    text-align: center;
+}
+
+.c-con {
+    display: none;
+    text-align: center;
+}
+
+.labels {
+    margin-left: -100;
+}
+
+.t-btn {
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.txt {
+    color: grey;
+}
+
+.ps {
+    color: orange;
+}
+
+.t-btn1 {
+    background-color: orange;
+}
+
+.form-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.con {
+    margin-left: 20px;
+}
+
+.item {
+    padding: 10px;
+    ;
+}
+
+.items {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin-left: 130px;
+    font-family: roboto;
+}
+
+.bg-container {
+    background-color: #f9fbfe;
+    height: 100vh;
+}
+
+.task-heading {
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.create-task-heading-subpart {
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.pro-con {
+    display: flex;
+}
+
+.pro {
+    display: none;
+}
+
+.items-heading {
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.items-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-container {
+    margin-top: 15px;
+}
+
+.user-input {
+    background-color: white;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e4e7eb;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.btns {
+    display: flex;
+    justify-content: end;
+}
+
+.bg-btn {
+    border-width: 0px;
+    background-color: transparent;
+}
+
+.button1 {
+    display: none;
+}
+
+.button {
+
+    color: black;
+    background-color: orange;
+    font-family: "Roboto";
+    font-size: 18px;
+    border-width: 0;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.title {
+    font-weight: bold;
+    font-family: "Roboto";
+    font-size: 20px;
+
+    width: 82%;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+.v-btn {
+    border-radius: 20px;
+    border-width: 1px;
+    margin-left: 20px;
+}
+
+.label-container {
+    margin: 20px;
+    background-color: #e6f6ff;
+    width: 100%;
+
+    border-width: 5px;
+
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 4px;
+}
+
+.checkbox-input {
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+
+.checkbox-label {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    width: 82%;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+.delete-icon-container {
+    text-align: right;
+    width: 18%;
+}
+
+.delete-icon {
+    padding: 15px;
+}
+
+.checked {
+    text-decoration: line-through;
+}
